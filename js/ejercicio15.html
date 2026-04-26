@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 15</title>
+</head>
+<body>
+    <script>
+        const mes = prompt("Ingrese el numero del mes (1-12):");
+        const retornarMes = (mes) => {
+            let resultado = "";
+            switch (mes) {
+                case "1":
+                    resultado = "Enero";
+                    break;
+                case "2":
+                    resultado = "Febrero";
+                    break;
+                case "3":
+                    resultado = "Marzo";
+                    break;
+                case "4":
+                    resultado = "Abril";
+                    break;
+                case "5":
+                    resultado = "Mayo";
+                    break;
+                case "6":
+                    resultado = "Junio";
+                    break;
+                case "7":
+                    resultado = "Julio";
+                    break;
+                case "8":
+                    resultado = "Agosto";
+                    break;
+                case "9":
+                    resultado = "Septiembre";
+                    break;
+                case "10":
+                    resultado = "Octubre";
+                    break;
+                case "11":
+                    resultado = "Noviembre";
+                    break;
+                case "12":
+                    resultado = "Diciembre";
+                    break;
+                default:
+                    resultado = "No es un mes";
+            }
+            return resultado;
+        }   
+        document.write(retornarMes(mes));
+    </script>
+</body>
+</html>

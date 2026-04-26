@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 17</title>
+</head>
+<body>
+    <script>
+        const texto = prompt("Ingrese un texto: ")
+        const contarLetraA = (texto) => {
+        let contador = 0;
+        let textoMinuscula = texto.toLowerCase();
+        for (let i = 0; i < textoMinuscula.length; i++) {
+             if (textoMinuscula[i] === 'a') {
+            contador++;
+            }
+        }
+        return contador;
+        };
+        document.write(`El texto ingresado es: ${texto} <br>`);
+        document.write(`La cantidad de letras "a" en el texto ingresado es: ${contarLetraA(texto)}`);
+    </script>
+</body>
+</html>
