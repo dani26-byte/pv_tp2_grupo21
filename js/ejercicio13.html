@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+const mostrarArreglo = (arr) => {
+    arr.forEach(num => document.write(`${num}<br>`));
+};
+
+const cantidad = parseInt(prompt("Cantidad de números:"));
+let numeros = [];
+
+for (let i = 0; i < cantidad; i++) {
+    numeros.push(parseInt(prompt("Ingrese número:")));
+}
+
+mostrarArreglo(numeros);
+</script>
+</body>
+</html>
