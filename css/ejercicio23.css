@@ -1,0 +1,43 @@
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 40px;
+    color: #1b0336;
+    background: linear-gradient(180deg, #a3d0f0, #8d7fe8);
+    background-attachment: fixed;
+    min-height: 100vh; /* Para que ocupe toda la pantalla */
+}
+h1 {
+    color: #1b0336;
+    text-align: center;
+    margin-bottom: 30px;
+}  
+label {
+    font-family: Verdana, Tahoma, sans-serif;
+    display: inline-block;
+    width: 60px;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #1b0336;
+}
+input {
+    font-family: Verdana, Tahoma, sans-serif;
+    padding: 8px 12px;
+    border: 2px solid #108de0;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 250px;
+    transition: border-color 0.3s ease;
+}
+input:focus {
+    border-color: #214862;
+    outline: none;
+}
+br {
+    line-height: 1.6;
+}
+p {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    color: #1b0336;
+    margin-top: 20px;
+}

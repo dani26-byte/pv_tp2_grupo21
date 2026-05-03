@@ -1,0 +1,38 @@
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 40px;
+    color: #1b0336;
+    background: linear-gradient(180deg, #a3d0f0, #8d7fe8);
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.opcion{
+    display: flex;
+    align-items: center;
+    gap: 12px;              /* distancia radio-texto */
+    margin-bottom: 35px;   /* separación vertical */
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+    width: auto;
+}
+
+input[type="radio"]{
+    transform: scale(1.2);
+}
+
+p{
+    font-size: 2.2rem;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #61032c;
+}
