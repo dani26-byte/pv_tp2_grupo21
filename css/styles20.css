@@ -11,6 +11,8 @@ label {
 input {
     padding: 5px;
     margin-left: 10px;
+    border-radius: 5px;
+    border-width: 1px;
 }
 
 button {
@@ -21,4 +23,11 @@ button {
     border-radius: 5px;
     cursor: pointer;
     margin-top: 5px;
+    transition: transform 0.12s ease, box-shadow 0.12s ease;
+    box-shadow: 0 4px 0 #030159;
+}
+
+button:active {
+    transform: translateY(3px);
+    box-shadow: 0 1px 0 #030159;
 }

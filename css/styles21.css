@@ -5,12 +5,16 @@ body {
 
 label {
     font-weight: bold;
-    display: block;
+    display: inline-block;
+    margin-right: 30px;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 select {
     padding: 5px;
     margin-left: 10px;
     width: 150px;
+    cursor: pointer;
+    border-radius: 5px;
 }
